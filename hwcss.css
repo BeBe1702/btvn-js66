@@ -1,0 +1,140 @@
+ html,body {
+    height: 100%;
+    width : 100%;
+   }
+
+.container1 {
+    height : 100%;
+    width : 100%;
+    display : flex;
+}
+.container2 { 
+    height : 7.5%;
+    width : 100%;
+    background-color : lightgrey;
+    display : flex;
+
+}
+.part1 {
+    height : 100%;
+    width :15%;
+    margin-right : 2%;
+}
+.item1-1 {
+    height : 9%;
+    width : 100%;
+    background-color: #FA8072; 
+    margin-bottom : 9%;
+}
+.item1-2 {
+    height : 21%;
+    width :100%;
+    background-color : #008080;
+    display : flex;
+    flex-direction : column ; 
+    justify-content : space-around;
+    padding-top : 5%;
+    padding-bottom : 5% ;
+    margin-bottom :17%;
+}
+.item1-2-1 {
+    height : 10%;
+    width :100%;
+    background-color : #66CDAA ;
+    }
+.item1-3 {
+    height : 23%;
+    width : 100%;
+    background-color : lightgrey;
+    margin-bottom : 5%;
+}
+.item1-4 {
+    height : 20%;
+    width : 100%;
+    background-color : lightgrey;
+}
+.part2 {
+    height : 100%;
+    width : 83%;
+}
+.item2-1 {
+    height : 40%;
+    width :100%;
+    background-color : #90EE90;
+    display : flex;
+    flex-direction :column ;
+    align-items : flex-end;
+    justify-content : flex-end;
+}
+.item2-1-1{
+	height : 10%;
+	width :25%;
+	background-color :white;
+	
+}
+.item2-1-2{
+	height :9%;
+	width :43%;
+	background-color : black;
+	margin-bottom : 5%;
+}
+
+.item2-2 {
+	height : 7%;
+	width : 100%;
+	background-color : green;
+	
+	display :flex;
+	flex-direction : row;
+	margin-bottom :2%;
+
+}
+.item2-2-1 {
+	background-color : #90EE90;
+	height : 100%;
+	width : 0.2%;
+	margin-left :  25%;
+	
+
+}
+.item2-3 {
+	background-color :#AFEEEE;
+	width : 100%;
+	height :5%;
+	display :flex;
+	justify-content: flex-end;
+	margin-bottom :2%;
+}
+.item2-3-1 {
+	width : 40%;
+	height : 100%;
+	background-color : #FA8072;
+}
+.item2-4 {
+	width :100%;
+	height :13%;
+	display : flex;
+	flex-direction : row ;
+	justify-content : space-between; 
+	margin-bottom :0.5%;
+
+}
+.item2-4-1 {
+	width :23%;
+	height :100%;
+	background-color : #BDB76B;
+}
+.item2-5 {
+	width :100%;
+	height :24%;
+	background-color : white;
+	display : flex;
+	flex-direction : row;
+	justify-content : space-between;
+}
+.item2-5-1{
+	width :23%;
+	height : 100%;
+	background-color : #FF7F50;
+	
+}
